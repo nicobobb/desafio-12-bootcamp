@@ -1,0 +1,28 @@
+.circulo {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: background-color 1s ease-in-out;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#controlColores {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    width: 100px;
+}
