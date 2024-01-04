@@ -224,7 +224,7 @@ const borrarColor = () => {
 // Input para ingresar el color a borrar
 const inputColorABorrar = document.createElement("input");
 inputColorABorrar.id = "colorABorrar";
-inputColorABorrar.placeholder = "Ingrese el color a borrar";
+inputColorABorrar.placeholder = "Color a borrar. Ej: #b3b3b3";
 formulario.appendChild(inputColorABorrar);
 
 // Botón para borrar el color ingresado

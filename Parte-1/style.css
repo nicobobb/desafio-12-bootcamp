@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+    font-family: "Quicksand", sans-serif;
+    background-image: url("./img/mesa.gif");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 25%;
+}
+
+h1::after {
+    content: "";
+    background-image: url("./img/banqueta.gif");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    position: absolute;
+    width: 20%;
+    height: 44vw;
+    margin-top: 90px;
+    right: 20px;
+}
+
 .circulo {
     position: absolute;
     background-color: #fff;
@@ -14,14 +39,62 @@
 
 h1 {
     text-align: center;
-    margin: 50px 0;
+    margin: 0 0 50px 0;
+    background-color: #c5b5b2;
+    padding: 30px 0;
 }
 
 #controlColores {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 select {
     width: 100px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 15px auto 25px auto;
+}
+
+#cajaContenedora {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+a {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    color: #585858;
+}
+
+button {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #c5b5b2;
+    border: 2px solid #b5a7a4;
+    cursor: pointer;
+    color: #585858;
+    box-shadow: 5px 5px 5px 0px #d5d5d5;
+    transition: 0.4s;
+}
+
+button:active {
+    background-color: #dbd7d3;
+    border: 2px solid #c3c3c3;
+    box-shadow: none;
+}
+
+input {
+    accent-color: #c5b5b2;
+    vertical-align: sub;
+    width: 20px;
+    height: 20px;
+}
+
+label {
+    font-size: 18px;
 }
